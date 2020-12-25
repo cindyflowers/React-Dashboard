@@ -1,0 +1,16 @@
+Link Share Password Violated
+STATE_VIOLATE_PASS
+1 2019-11-05T13:17:08Z vaultize Vaultize - - @cee:{"software": "Vaultize", "version": "19.01.07", "src": ["192.168.1.20"], "user": ["lalit@vaultize.com", "lalit@anoosmar.com"], "url": "https://192.168.12.43", "filename": [{"oid": "a-3-1-8l", "nm": "Lalit.docx", "pth": ""}, "Vltz-lpt-72:(3.1.8l)Lalit.docx", ""], "receiver": [{"mobaccess": true, "enfml": true, "spfa": 3, "prms": 524, "drmtempid": "a-7bCx5fKanDbrhYHMUnK", "email": "lalit@anoosmar.com"}], "msg": "LINK SHARE ViolatePasswd", "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36"}
+
+User Login Password Violated
+STATE_VIOLATE_PASS
+Admin Login
+1 2019-11-05T13:22:05Z vaultize Vaultize - - @cee:{"software": "Vaultize", "version": "19.01.07", "src": ["192.168.1.20"], "user": ["vzadmin@vaultize.com"], "url": "https://192.168.12.43", "receiver": ["vzadmin@vaultize.com"], "msg": "ADMIN ViolatePasswd", "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36"}
+
+STATE_VIOLATE_PASS
+User Login
+1 2019-11-05T13:20:58Z vaultize Vaultize - - @cee:{"software": "Vaultize", "version": "19.01.07", "src": ["192.168.1.20"], "user": ["lalit@vaultize.com", "vzadmin@vaultize.com"], "url": "https://192.168.12.43", "receiver": ["vzadmin@vaultize.com"], "msg": "USER ViolatePasswd", "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36"}
+
+DRM File View Failed
+ACTION_DRM_VIEW_REQUEST_FAILED
+1 2019-11-05T13:51:21Z vaultize Vaultize - - @cee:{"software": "Vaultize", "version": "19.01.07", "src": ["192.168.1.20", "192.168.56.1"], "user": ["lalit"], "url": "https://192.168.12.43", "filename": ["Vaultize Server:(3.2.6)/Online Folder/share/vault.txt"], "msg": "FILE DRM View Request Failed", "userAgent": "Python-httplib2/0.10.3 (gzip)"}

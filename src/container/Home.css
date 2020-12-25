@@ -1,0 +1,36 @@
+.Home .lander {
+    padding: 110px 0 10px 0;
+    height:80em;
+    text-align: center; background-image: url(../img/HerndonReston.png);
+  }
+  
+  .Home .lander h1 {
+    padding-top:10px;
+    font-family: "'Big Shoulders Text', sans-serif";
+    font-weight: 600;
+    color:#D0D3D4;
+  }
+  
+  .Home .lander p {
+    color: #0099b2;
+  }
+  
+  body {
+    background-color:#ffffff;
+    overflow: auto;
+  }
+
+  .thinType {
+    color:#2D68C4;
+    font-weight:100;
+    font-size: 5em;
+   
+  }
+    
+    .thickerType {
+      color:#2D68C4;
+      font-weight:900;
+      font-size: 5em;
+    }
+    
+    

@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Big Shoulders Text', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+.collapse-show {
+ background-size:50%;
+}
+a:hover{ text-decoration:none;
+  color:#1c1f2a!important;}
+
+.NotFound {
+    padding-top: 100px;
+    text-align: center;
+  }
+  
+.navbar {
+  background-color:#2d68c4;
+  display: inline-flexbox;
+  width:inherit;
+  height:50px;
+  padding-left: 12px;
+  padding-right: 22px;
+  margin:0;
+  z-index:90000;
+}
+
+.ml-auto {
+  padding-left:1em;
+  line-height:0.3em;
+}
+#logo {
+  height:30px;
+
+
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Big Shoulders Text', sans-serif;
+  font-weight:500;
+}
+/*.navbar-brand>img {
+  padding: 7px 14px;
+}*/
+
+a:hover{ text-decoration:none;
+  color:#0099b2;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgb(255,255,255);
+    height:inherit;
+}
+/* change the link color and add padding for height */
+.nav-link{
+    color: #2d68c4;
+    font-family: 'Big Shoulders Text', sans-serif;
+    font-size:.9em;
+    font-weight: 700;
+    padding: 1rem 1rem;
+    height:inherit;
+}
+/* change the color of active or hovered links */
+ .nav-item:hover, .nav-link {
+    color: #ffffff;
+    height:inherit;
+    /* add background-color to active links */
+}
+.navbar-toggler-icon {
+  background-image: url(./svg/BurgerBoy.svg);
+  background-position: top;
+  background-size:90%
+}
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) { 
+
+  .nav-link{
+    color:#2d68c4;
+    font-family: 'Big Shoulders Text', sans-serif;
+    font-size:.9em;
+    font-weight: 700;
+    padding: 1rem 1rem;
+    height:inherit;
+}
+a:hover{ text-decoration:none;
+  color:#0099B2;
+}
+
+
+
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) {
+
+  .nav-link{
+    color:#2d68c4;
+    font-family: 'Big Shoulders Text', sans-serif;
+    font-size:.9em;
+    font-weight: 700;
+    padding: 1rem 1rem;
+    height:inherit;
+}
+}
+
+
+  
+  
+
+ /*Large devices (desktops, 992px and up)*/
+  @media (min-width: 992px) { 
+
+    .nav-link{
+      color: rgba(255,255,255);
+      font-family: 'Big Shoulders Text', sans-serif;
+      font-size:.9em;
+      font-weight: 700;
+      padding: 1rem 1rem;
+      height:inherit;
+  }
+  a:hover{ text-decoration:none;
+    color:#1c1f2a;
+  }
+}
+  
+/*Extra large devices (large desktops, 1200px and up)*/
+  @media (min-width: 1200px) { 
+
+.nav-link{
+    color: rgba(255,255,255);
+    font-family: 'Big Shoulders Text', sans-serif;
+    font-size:.9em;
+    font-weight: 700;
+    padding: 1rem 1rem;
+    height:inherit;
+}
+a:hover{ text-decoration:none;
+  color:#1c1f2a;
+
+  }
+}
+
+
+
+
+
+ 
